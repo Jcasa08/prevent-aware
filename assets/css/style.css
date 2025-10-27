@@ -6,4 +6,9 @@
 :root{
     --primary-font: "Sora", sans-serif;
     --secondary-font: "Manrope", sans-serif;
+    --primary-colour: #0f1724; /*Rich Black*/
+    --secondary-colour: #a3b2c8; /*Powder Blue*/
+    --highlight-colour: #1e8bb3; /*Light Blue*/
+    --light-highlight-colour: #22a6d6; /*Bright Blue*/
+    --background-colour: #f3f4f6; /*Off White*/
 }
