@@ -16,6 +16,7 @@
 /*General Styles*/
 body {
     font-family: var(--primary-font);
+    background-color: var(--background-colour);
 }
 
 h1,
@@ -34,3 +35,8 @@ h3 {
 }
 
 /*Hero Section Styles*/
+#hero {
+    width: 100%;
+    height: auto;
+   
+}
