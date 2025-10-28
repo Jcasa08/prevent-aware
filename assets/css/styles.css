@@ -12,3 +12,13 @@
     --light-highlight-colour: #22a6d6; /*Bright Blue*/
     --background-colour: #f3f4f6; /*Off White*/
 }
+
+
+/*Navbar Styles*/
+#navbar{
+    background-color: var(--primary-colour);
+}
+
+#navbar  .logo{
+    color: var(--secondary-colour);
+}
