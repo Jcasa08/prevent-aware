@@ -34,9 +34,15 @@ h3 {
     width: 30px;
 }
 
-/*Hero Section Styles*/
+/*Header Section Styles*/
 #hero {
     width: 100%;
     height: auto;
    
+}
+
+/*Four P's Section Styles*/
+#fourp-img {
+    height: 75%;
+    width: 100%;
 }
