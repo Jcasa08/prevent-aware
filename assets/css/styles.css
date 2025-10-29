@@ -6,27 +6,43 @@
 :root {
     --primary-font: "Sora", sans-serif;
     --secondary-font: "Manrope", sans-serif;
-    --primary-colour: #0f1724; /*Rich Black*/
-    --secondary-colour: #a3b2c8; /*Powder Blue*/
-    --highlight-colour: #1e8bb3; /*Light Blue*/
-    --light-highlight-colour: #22a6d6; /*Bright Blue*/
-    --background-colour: #f3f4f6; /*Off White*/
+    --primary-colour: #115457; /*Dark Teal*/
+    --secondary-colour: #579779; /*Light Teal*/
+    --highlight-colour: #212422; /*Grey*/
+    --light-highlight-colour:#7c7e79; /*Light Grey*/
+    --background-colour: #F3F4F6 ; /*Off White*/
 }
 
 /*General Styles*/
 body {
     font-family: var(--primary-font);
     background-color: var(--background-colour);
+    color:var(--highlight-colour);
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: var(--secondary-font);
+    color:var(--primary-colour)
 }
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.sub-heading {
+    font-family: var(--secondary-font);
+    color: var(--highlight-colour);
+}
+
 .section{
     padding-top:3rem;
 }
+
+/*Button Styles*/
+
 
 /*Navbar Styles*/
 #navbar {
