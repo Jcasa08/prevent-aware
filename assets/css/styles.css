@@ -130,9 +130,22 @@ h2 {
 
 /*Radicalisation Section Styles*/
 
-#carouselExample img{
-    max-height:200px ;
-    width: 100%;}
+/*External Resources Section Styles*/
+
+#external ul{
+    list-style-type:none;
+    padding-right:4rem;
+}
+#external li{
+    margin-bottom:0.5rem;
+}
+#external a{
+    text-decoration:none;
+    color:var(--primary-colour);
+}
+#external a:hover{
+    text-decoration:underline;
+}
 /*Media Queries*/
 
 @media (min-width: 992px) {
