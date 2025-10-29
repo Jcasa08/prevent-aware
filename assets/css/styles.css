@@ -9,15 +9,15 @@
     --primary-colour: #115457; /*Dark Teal*/
     --secondary-colour: #579779; /*Light Teal*/
     --highlight-colour: #212422; /*Grey*/
-    --light-highlight-colour:#7c7e79; /*Light Grey*/
-    --background-colour: #F3F4F6 ; /*Off White*/
+    --light-highlight-colour: #7c7e79; /*Light Grey*/
+    --background-colour: #f3f4f6; /*Off White*/
 }
 
 /*General Styles*/
 body {
     font-family: var(--primary-font);
     background-color: var(--background-colour);
-    color:var(--highlight-colour);
+    color: var(--highlight-colour);
 }
 
 h1,
@@ -25,7 +25,7 @@ h2,
 h3,
 h4 {
     font-family: var(--secondary-font);
-    color:var(--primary-colour)
+    color: var(--primary-colour);
 }
 
 h2 {
@@ -37,13 +37,21 @@ h2 {
     color: var(--highlight-colour);
 }
 
-.section{
-    padding-top:3rem;
+.section {
+    padding-top: 3rem;
 }
 
 /*Button Styles*/
-
-
+.btn-custom {
+    background-color: var(--primary-colour);
+    color: white;
+    border: 2px solid var(--primary-colour);
+}
+.btn-custom:hover {
+    background-color: var(--secondary-colour);
+    border: 2px solid var(--secondary-colour);
+    color: white;
+}
 /*Navbar Styles*/
 #navbar {
     background-color: var(--primary-colour);
@@ -57,11 +65,80 @@ h2 {
 #hero {
     width: 100%;
     height: auto;
-   
 }
 
 /*Four P's Section Styles*/
 #fourp-img {
     height: auto;
     width: 100%;
+}
+
+/*Accordion Styles*/
+
+.accordion {
+    font-family: var(--primary-font);
+    margin-top: 1rem;
+}
+
+.accordion .accordion-item {
+    border: none;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(15, 23, 36, 0.06);
+}
+
+.accordion-button {
+    background: linear-gradient(
+        90deg,
+        rgba(17, 84, 87, 0.04),
+        rgba(87, 151, 121, 0.02)
+    );
+    color: var(--primary-colour);
+    padding: 1rem 1.25rem;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.18s ease, color 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-colour);
+    color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background: #fff;
+    color: var(--highlight-colour);
+    padding: 1rem 1.25rem;
+    font-size: 0.98rem;
+    border-top: 1px solid rgba(15, 23, 36, 0.04);
+}
+
+/* Make flush accordions still look card-like */
+.accordion-flush .accordion-item {
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+/*Radicalisation Section Styles*/
+
+#carouselExample img{
+    max-height:200px ;
+    width: 100%;}
+/*Media Queries*/
+
+@media (min-width: 992px) {
+    .accordion {
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
