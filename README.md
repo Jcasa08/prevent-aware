@@ -72,7 +72,7 @@ Selecting a colour palette this way allowed for a cohesive design between both t
 
 
 
-# User Stories
+## User Stories
 
 <strong>As a user , I want the website to be able to access the site regardless of whether I am on desktop or mobile so I can view the page content on any device.</strong>
 
@@ -128,12 +128,141 @@ Selecting a colour palette this way allowed for a cohesive design between both t
 - Reporting information is easily findable and prominently displayed
 
 ![screenshot](readme-images/project-board.png)
-# Features
 
-# Testing
+## Features
 
-# Deployment
+### Acordion
 
-# AI
+- Accordion was used to present information to the user without overload. It has been designed to provide feedback to the user by changing the heading colour when clicked.
 
-# Credits
+![screenshot](readme-images/desktop-accordion.png)
+
+- The picture was hidden on smaller screens to prevent clutter.
+
+![screenshot](readme-images/mobile-accordion.png)
+
+### Cards
+
+- Cards were used in the Radicalisation section, on smaller screens (mobile and tablet), they are displayed as a carousel:
+
+![screenshot](readme-images/cards-mobile.png)
+
+- however on larger screens, they are displayed in a 3 x 2 grid.
+
+![screenshot](readme-images/cards-desktop1.png)
+
+![screenshot](readme-images/cards-desktop2.png)
+
+### Video
+- The video is fully responsive across mobile and desktop and was embedded via YouTube.
+
+![screenshot](readme-images/video-desktop.png)
+
+![screenshot](readme-images/video-mobile.png)
+
+
+### Navigation Bar
+
+- The navigation bar was created via Bootstrap's navigation bar and so is responsive across devices.
+
+![screenshot](readme-images/navbar-desktop.png)
+
+![screenshot](readme-images/navbar-mobile2.png)
+
+### Footer
+- Footer is a simple design with contact details and social links
+
+![screenshot](readme-images/footer.png)
+
+
+## Testing
+
+### Manual Testing
+
+The site was manually tested using the following web browsers:
+
+<strong>Chrome</strong>
+
+| Test | Result |
+|------|--------|
+|Click logo| Success|
+|Click Home|Success|
+|Click Prevent Strategy|Success|
+|Click Radicalisataion|Success|
+|Click Report Concerns|Success|
+|Click External Resources|Success|
+|Click Button|Success|
+|Open/Close Accordion| Success|
+|Next/Prev on Carousel|Success|
+|Play Video|Success|
+|Open External Resources|Success|
+
+
+<strong>FireFox</strong>
+
+| Test | Result |
+|------|--------|
+|Click logo| Success|
+|Click Home|Success|
+|Click Prevent Strategy|Success|
+|Click Radicalisataion|Success|
+|Click Report Concerns|Success|
+|Click External Resources|Success|
+|Click Button|Success|
+|Open/Close Accordion| Success|
+|Next/Prev on Carousel|Success|
+|Play Video|Success|
+|Open External Resources|Success|
+
+
+<strong>Edge</strong>
+
+| Test | Result |
+|------|--------|
+|Click logo| Success|
+|Click Home|Success|
+|Click Prevent Strategy|Success|
+|Click Radicalisataion|Success|
+|Click Report Concerns|Success|
+|Click External Resources|Success|
+|Click Button|Success|
+|Open/Close Accordion| Success|
+|Next/Prev on Carousel|Success|
+|Play Video|Success|
+|Open External Resources|Success|
+
+
+### Lighthouse
+- Lighthouse from Chrom Developer Tools was used for performance and provided these scores:
+
+### Validators
+
+#### HTML
+
+W3C's HTML Validator provided
+
+#### CSS
+
+W3C's CSS validator provided
+
+## Deployment
+GitHub Pages was used to deploy the site.
+
+## AI
+
+AI was used throughout the project to compliment my own coding. It was used mainly for user stories, debugging and image generation but was also used for some styling. The AI used was ChatGPT and Copilot.
+
+### Debugging
+
+There was a couple of times in this project where AI was used to debug issues, the code was reviewed by me before being either accepted or rejected. Example below is from when my CSS styles weren't applying to the navigation bar.
+
+
+### Image Generation
+Although there are ethical concerns when using AI for image generation, as this is a first solo project, code was first and foremost. In future projects AI image generation may not be used.
+
+### Styling
+AI was used to help style some of the Bootstrap elements, namely the accordion, but it was also used to help with some positioning of other elements.
+
+## Credits
+
+
