@@ -243,7 +243,9 @@ W3C's HTML Validator provided
 
 #### CSS
 
-W3C's CSS validator provided
+W3C's CSS validator provided:
+
+![sreenshot](readme-images/css-valid.png)
 
 ## Deployment
 GitHub Pages was used to deploy the site.
