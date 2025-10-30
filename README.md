@@ -133,7 +133,7 @@ A [**Colour Contrast Checker**](https://webaim.org/resources/contrastchecker/) w
 
 ## Features
 
-### Acordion
+### Accordion
 
 - Accordion was used to present information to the user without overload. It has been designed to provide feedback to the user by changing the heading colour when clicked.
 
