@@ -29,6 +29,24 @@ Design choices for this project were focused on creating a sense of calm, while 
 
 [**Sora**](https://fonts.google.com/specimen/Sora?query=sora) was used for the main bodies of text.
 
+### Colour Palette
+
+A [**Colour Picker**](https://imagecolorpicker.com/) was used to grab various tones from one of the site's images.
+
+![screenshot](readme-images/colour-picker.png)
+
+This produced a colour palette like this:
+
+![screenshot](readme-images/prevent-palette.png) 
+
+Which was then refined into this:
+
+![screenshot](readme-images/prevent-palette-final.png)
+
+Selecting a colour palette this way allowed for a cohesive design between both the site's text and images. A Dark Teal was used as the primary colour, namely the navigation bar, headers and buttons, a lighter teal was used on the button to give user feedback. A white was used for text on the navigation bar and footer to provide better contrast, as well as for the background. A light grey was used on the social icons to again provide user feedback. All other text is black for contrast.
+
+### Wireframes
+
 # User Stories
 
 # Features
