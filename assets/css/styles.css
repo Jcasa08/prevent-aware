@@ -130,31 +130,49 @@ h2 {
 
 /*Radicalisation Section Styles*/
 
-/* Report Section Styles */
-#report a{
-    text-decoration:none;
-    color:var(--primary-colour);
+/* Card layout tweaks for larger screens */
+.card {
+    /* ensure cards stretch to same height in their column */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-#report a:hover{
-    text-decoration:underline;
+.card .card-body {
+    flex: 1 1 auto;
+}
+
+/* Make card images fill the horizontal space and crop nicely */
+.card-img-top {
+    width: 100%;
+    height: 220px; /* fixed height for consistent card layout */
+    object-fit: cover;
+
+/* Report Section Styles */
+#report a {
+    text-decoration: none;
+    color: var(--primary-colour);
+}
+
+#report a:hover {
+    text-decoration: underline;
 }
 
 /*External Resources Section Styles*/
 
-#external ul{
-    list-style-type:none;
-    padding-right:4rem;
+#external ul {
+    list-style-type: none;
+    padding-right: 4rem;
 }
-#external li{
-    margin-bottom:0.5rem;
+#external li {
+    margin-bottom: 0.5rem;
 }
-#external a{
-    text-decoration:none;
-    color:var(--primary-colour);
+#external a {
+    text-decoration: none;
+    color: var(--primary-colour);
 }
-#external a:hover{
-    text-decoration:underline;
+#external a:hover {
+    text-decoration: underline;
 }
 
 /*Footer Styles*/
@@ -170,11 +188,12 @@ footer a {
     text-decoration: underline;
 }
 
-footer a:hover{
+footer a:hover {
     color: var(--light-highlight-colour);
 }
 
-footer h3, footer h4 {
+footer h3,
+footer h4 {
     color: white;
 }
 
@@ -185,5 +204,15 @@ footer h3, footer h4 {
         max-width: 640px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+
+
+@media (max-width: 767.98px) {
+    /* On small screens let images be auto height so the carousel/mobile view uses natural image height */
+    .card-img-top {
+        height: auto;
+        object-fit: contain;
     }
 }
