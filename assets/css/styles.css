@@ -52,6 +52,17 @@ h2 {
     border: 2px solid var(--secondary-colour);
     color: white;
 }
+
+.btn-custom-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid var(--secondary-colour);
+}
+.btn-custom-outline:hover {
+    background-color: var(--secondary-colour);
+    border: 2px solid var(--secondary-colour);
+    color: white;
+}
 /*Navbar Styles*/
 #navbar {
     background-color: var(--primary-colour);

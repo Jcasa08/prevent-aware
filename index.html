@@ -416,7 +416,8 @@
                     <h2 class="text-center display-6">Tying it all Together</h2>
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/g3jP8bI1zfc?si=O4hS3xDO_YnvYjOE"
-                            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
@@ -508,9 +509,48 @@
                     <a href="https://www.instagram.com/" aria-label="Link to Prevent Aware's Instagram page"><i
                             class="fab fa-instagram fa-2x me-3"></i></a>
                 </div>
-                <div class="col-12 text-center mt-3">Copyright © 2025 Prevent Aware
+                <div class="col-12 mt-3 d-flex justify-content-center">
+                    <button type="button" class="btn btn-custom-outline justify-content-center" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Newsletter
+                    </button>
+                </div>
+                <div class="col-12 text-center mt-3">
+
+                    <p>Copyright © 2025 Prevent Aware</p>
                     <br>
-                    Created with Bootstrap
+                    <p>Created with Bootstrap</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="container">
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <h2 class="display-6 mb-3">Sign up for our Newsletter</h2>
+                                    <label for="fname" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="fname" placeholder="Enter your full name" required>
+
+                                    <label for="email" class="form-label mt-3">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+
+                                    <input type="submit" class="btn btn-custom mt-4" value="Signup">
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-custom">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
