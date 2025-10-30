@@ -162,6 +162,18 @@ A [**Colour Contrast Checker**](https://webaim.org/resources/contrastchecker/) w
 
 ![screenshot](readme-images/video-mobile.png)
 
+### Newsletter Modal
+
+A modal was used as a signup form with HTML validation added.
+
+![screenshot](readme-images/newsletter-modal.png)
+
+![screenshot](readme-images/modal-valid1.png)
+
+![screenshot](readme-images/modal-valid2.png)
+
+![screenshot](readme-images/modal-valid3.png)
+
 
 ### Navigation Bar
 
@@ -172,7 +184,7 @@ A [**Colour Contrast Checker**](https://webaim.org/resources/contrastchecker/) w
 ![screenshot](readme-images/navbar-mobile2.png)
 
 ### Footer
-- Footer is a simple design with contact details and social links
+- Footer is a simple design with contact details and social links and a newsletter modal
 
 ![screenshot](readme-images/footer.png)
 
