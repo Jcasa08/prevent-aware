@@ -45,6 +45,8 @@ Which was then refined into this:
 
 Selecting a colour palette this way allowed for a cohesive design between both the site's text and images. A Dark Teal was used as the primary colour, namely the navigation bar, headers and buttons, a lighter teal was used on the button to give user feedback. A white was used for text on the navigation bar and footer to provide better contrast, as well as for the background. A light grey was used on the social icons to again provide user feedback. All other text is black for contrast.
 
+A [**Colour Contrast Checker**](https://webaim.org/resources/contrastchecker/) was used to check colour contrast.
+
 ### Wireframes
 
 #### Desktop
@@ -235,11 +237,15 @@ The site was manually tested using the following web browsers:
 ### Lighthouse
 - Lighthouse from Chrom Developer Tools was used for performance and provided these scores:
 
+![screenshot](readme-images/lighthouse.png)
+
 ### Validators
 
 #### HTML
 
-W3C's HTML Validator provided
+W3C's HTML Validator provided:
+
+![screenshot](readme-images/html-valid.png)
 
 #### CSS
 
@@ -258,12 +264,15 @@ AI was used throughout the project to compliment my own coding. It was used main
 
 There was a couple of times in this project where AI was used to debug issues, the code was reviewed by me before being either accepted or rejected. Example below is from when my CSS styles weren't applying to the navigation bar.
 
+![screenshot](readme-images/debug.png)
 
 ### Image Generation
 Although there are ethical concerns when using AI for image generation, as this is a first solo project, code was first and foremost. In future projects AI image generation may not be used.
 
 ### Styling
 AI was used to help style some of the Bootstrap elements, namely the accordion, but it was also used to help with some positioning of other elements.
+
+![screenshot](readme-images/style.png)
 
 ## Credit
 The information for this project was gathered from:
