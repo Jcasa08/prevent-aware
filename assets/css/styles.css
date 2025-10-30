@@ -78,6 +78,11 @@ h2 {
   color: var(--light-highlight-colour); /* defined in your :root */
 }
 
+.navbar-toggler{
+    color:#ffffff;
+    border-color:#ffffff;
+}
+
 /*Header Section Styles*/
 #hero {
     width: 100%;
